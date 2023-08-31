@@ -6,8 +6,12 @@
 }
 .display{
   border: 2px solid green;
-  text-align: right;
+  /* text-align: right; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
   height: 70px;
+  /* width: 98%; */
   padding: 16px,8px;
   font-size: 25px;
 }
